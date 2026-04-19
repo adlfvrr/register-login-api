@@ -1,0 +1,16 @@
+spring.application.name=register-login.api
+# Conexion a PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db
+spring.datasource.username=your_user
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA e Hibernate
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+spring.jpa.format-sql=true
+spring.jpa.hibernate.ddl-auto=update //Te crea automáticamente las tablas necesarias
+
+# JWT KEY
+jwt.secret=7f4BESf7Qo5x9whljeS5v4DcBgNc1SVLo1MlG7l8C3w=  //secret key para probar
+jwt.expiration = 86400000
