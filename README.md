@@ -23,6 +23,7 @@ Nos devolverá nuestro token
 Para utilizar el token y ver todos los usuarios:
 
 Nos dirigiremos a la sección Headers (entre "Auth" y "Query") y colocaremos:
+
 Key - Value
 Authorization - Nuestro_token
 
